@@ -1,0 +1,8 @@
+Функция delay(ms)
+Реализуйте функцию delay(ms), которая возвращает промис, разрешающийся через указанное количество миллисекунд.
+
+var delay = function (ms) {
+
+};
+
+delay(3000).then(() => console.log('Runs after 3 seconds'));

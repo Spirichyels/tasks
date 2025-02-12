@@ -1,0 +1,12 @@
+Функция asyncEvery
+Реализуйте функцию asyncEvery(array, predicate), которая работает аналогично Array.prototype.every(), но с поддержкой асинхронных предикатов.
+
+
+
+var asyncEvery = async function (array, predicate) {
+
+};
+
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}

@@ -1,0 +1,22 @@
+Симуляция асинхронного запроса
+Симуляция асинхронного запроса
+Напишите функцию fetchData, которая симулирует асинхронный запрос данных. Функция должна принимать два параметра: url и callback. fetchData должна возвращать промис, который разрешается через 2 секунды с фиктивными данными, и затем вызывает функцию callback.
+
+Необходимо вернуть data такого вида:
+
+const data = { result: 'Some data receiasdasdved from ' + url };
+
+
+var fetchData = function (url, callback) {
+
+};
+
+// Пример использования функции fetchData
+const url = 'https://example.com/data';
+fetchData(url, (data) => {
+  console.log('Callback function was called with data:', data);
+}).then((data) => {
+  console.log('Promise was resolved with data:', data);
+}).catch((error) => {
+  console.error('Error occurred:', error);
+});
