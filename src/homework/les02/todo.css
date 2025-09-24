@@ -7,3 +7,13 @@
 	padding: 5px;
 	
 }
+
+#task {
+	display: flex;               /* включаем flexbox */
+	justify-content: space-between; /* div слева, чекбокс справа */
+	align-items: center;         /* выравнивание по вертикали */
+	width: 300px;                /* примерная ширина контейнера */
+	border: 1px solid #ccc;      /* чтобы было видно границы */
+	padding: 5px;
+	
+}
